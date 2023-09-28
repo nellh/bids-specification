@@ -10,7 +10,7 @@
 }
 
 .md-main__inner {
-    background-image: url(../images/draft_watermark.png);
+    background-image: url(../images/draft_watermark.png#only-light) url(../images/draft_watermark_dark.png#only-dark);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain, cover;
